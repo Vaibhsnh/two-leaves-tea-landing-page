@@ -307,64 +307,57 @@ main{
   width: 100%;
   border-radius: .8rem;
   border: 1px solid black;
+  
+}
+
+.product-card-image img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  transition: .2s ease-in;
+}
+
+.product-card:hover .product-card-image img{
+  scale: 1.05;
 }
 
 .tropical-green-tea-card {
   background-color: var(--primary-brand-color);
-  background-image: url("assets/images/organic_tropical_green_tea_sachet_featured.webp");
-  background-size: contain;
 }
 
 .organic-ceremonial-card {
   background-color: var(--secondary-brand-color);
-  background-image: url("assets/images/matcha-tin_featured.webp");
-  background-size: contain;
 }
 
 .organic-pappermint-card {
   background-color: var(--accent-brand-color);
-  background-image: url("assets/images/peppermint_naked_featured.webp");
-  background-size: contain;
 }
 
 .organic-earl-grey {
   background-color: var(--display-brand-color);
-  background-image: url("assets/images/Naked_Tea.webp");
-  background-size: contain;
 }
 
 .herbal-tea-trio {
   background-color: var(--brand-testimonials-light-yellow);
-  background-image: url("assets/images/bundle-herbal-tea-trio-featured-image.webp");
-  background-size: contain;
 }
 
 .classic-bamboo-tea-card {
   background-color: var(--display-brand-color);
-  background-image: url("assets/images/Bamboo_Tea_Chest.webp");
-  background-size: contain;
 }
 
 .nice-matcha-tea-card {
   background-color: var(--brand-testimonials-green);
-  background-image: url("assets/images/Latte_Mix.webp");
-  background-size: contain;
 }
 
 .nice-chai-tea-card {
   background-color: var(--natural-brand-dark-color);
-  background-image: url("assets/images/Latte_Mix_b400f40c-730f-4122-9058-cfc4e5bf8faf.webp");
-  background-size: contain;
 }
 
 .organic-mountain-chai-card {
   background-color: var(--natural-brand-light-color);
-  background-image: url("assets/images/organic_high_mountain_chai_tea_sachet_featured.webp");
-  background-size: contain;
 }
 
 .alpine-berry-card{
   background-color: var(--display-brand-color);
-  background-image: url("assets/images/alpine_berry_naked_featured.webp");
-  background-size: contain;
 }
