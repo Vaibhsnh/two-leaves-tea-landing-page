@@ -962,6 +962,80 @@ main {
 .review-product--lavender {
   background: var(--testimonials-footer-lavender);
 }
+
+/*-----------------CAFE & WHOLESALE PARTNERS----------------*/
+
+.partners{
+    width:100%;
+    min-height:clamp(38rem,55vw,50rem);
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+
+/*================ IMAGE =================*/
+
+.partners-image{
+    width:100%;
+    height:100%;
+}
+
+.partners-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+}
+
+/*================ CONTENT =================*/
+
+.partners-content{
+    background: var(--primary-cta-color);
+    color:#fff;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    padding:clamp(3rem,6vw,5rem);
+}
+
+/*================ TITLE =================*/
+
+.partners-title{
+    font-family:var(--heading-font);
+    font-weight:300;
+    font-size:clamp(3rem,5vw,5.8rem);
+    line-height:1;
+    margin-bottom:clamp(2rem,3vw,2.8rem);
+}
+
+/*================ DESCRIPTION =================*/
+
+.partners-description{
+    max-width:32rem;
+    font-family:var(--body-font);
+    font-size:clamp(1.15rem,1.4vw,1.55rem);
+    line-height:1.45;
+    margin-bottom:clamp(2.5rem,4vw,3.5rem);
+}
+
+/*================ BUTTON =================*/
+
+.partners-btn{
+    padding:
+    clamp(.95rem,1vw,1.1rem)
+    clamp(3rem,4vw,4rem);
+    border-radius:999px;
+    background:#fff;
+    color:#222;
+    font-family:var(--body-font);
+    font-size:clamp(1rem,1vw,1.1rem);
+    transition:var(--transition);
+}
+
+.partners-btn:hover{
+    background:var(--primary-cta-color);
+    color: white;
+}
 /*----------------------COMMON UTILITIES--------------------*/
 
 .rating,
