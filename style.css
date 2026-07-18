@@ -323,7 +323,7 @@ main {
 }
 
 .featured-products-slider {
-  height: 50%;
+  height: 60%;
   overflow-x: auto;
   padding: 3rem 2rem;
   display: flex;
@@ -337,10 +337,9 @@ main {
 }
 
 .product-card {
-  height: clamp(25rem, 65vh, 50rem);
+  height: clamp(25rem, 72vh, 50rem);
   width: clamp(22.5rem, 22vw, 60rem);
   flex-shrink: 0;
-  background-color: rosybrown;
   padding: 10px;
 }
 
@@ -406,7 +405,15 @@ main {
 }
 
 .rating-star {
-  font-size: .9rem;
+  font-size: 0.9rem;
+}
+
+.featured-cta-btn {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .product-add-btn {
@@ -422,7 +429,7 @@ main {
   right: 0.875rem;
   border: 1px solid black;
   border-radius: 10px;
-  transition: .3s ease;
+  transition: 0.3s ease;
 }
 
 .product-add-btn:hover {
@@ -431,7 +438,7 @@ main {
   cursor: pointer;
 }
 
-.product-add-btn i{
+.product-add-btn i {
   font-size: 1.3rem;
 }
 
@@ -439,3 +446,51 @@ main {
   font-family: font-accent;
   font-size: 1rem;
 }
+
+/*----------------- product-description ------------------*/
+
+.product-card-description {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0px;
+}
+
+.product-card-title h3 {
+  font-family: font-primary;
+  font-size: clamp(1.5rem, 1.6vw, 2rem);
+  font-weight: 200;
+  margin-bottom: 1rem;
+}
+
+.product-card-pricing .price {
+  font-family: font-display;
+  font-size: clamp(1rem, 1vw, 2rem);
+  margin-bottom: .3rem;
+}
+
+.product-description p{
+  font-family: font-display;
+  font-size: clamp(1.05rem, 1vw, 2rem);
+  opacity: .7;
+}
+
+.explore-teas {
+  padding: var(--cta-btn-padding);
+  font-size: var(--cta-btn-font-size);
+  font-weight: var(--cta-btn-font-weight);
+  background-color: var(--primary-cta-color);
+  color: white;
+  border-radius: 10rem;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.explore-teas:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+
